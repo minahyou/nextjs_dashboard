@@ -1,5 +1,5 @@
 import '@/app/ui/global.css'; //ui안에 기본 css가 있다.
-import {inter} from '@/app/ui/font'
+import { inter } from '@/app/ui/fonts';
 
 //@-decorator : 코드
 
@@ -10,7 +10,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className= {`${inter.className} antialiased`}>{children}</body>
+      <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
 }
