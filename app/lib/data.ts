@@ -1,3 +1,5 @@
+{/*디비와 통신을 담당 */}
+
 import { sql } from '@vercel/postgres';
 import {
   CustomerField,
